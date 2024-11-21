@@ -7,23 +7,22 @@
     <link rel="stylesheet" href="../frontend/css/index.css">
 </head>
 <body>
-    <div class="form-container">
-        <label for="hour">Hour:</label>
-        <select id="hour" name="hour"></select>
-
-        <label for="minute">Minute:</label>
-        <select id="minute" name="minute"></select>
-
-        <label for="date">Date:</label>
-        <select id="date" name="date"></select>
     
-        <label for="day">Day:</label>
-        <select id="day" name="day"></select>
-
-        <label for="month">Month:</label>
-        <select id="month" name="month">
-        </select>
-    </div>
+    <div class="main" id="main">
+        <h1>Select Time And Date</h1>
+        <label for="">Hour:</label>
+        <select id="hour-dropdown"></select>
+        <label for="">Minute:</label>
+        <select id="minute-dropdown"></select>
+        <label for="">Day:</label>
+        <select id="day-dropdown"></select>
+        <label for="">Month</label>
+        <select id="month-dropdown"></select>
+        <label for="">Date</label>
+        <select id="date-dropdown"></select>
+        <div id="selected-info" class="info"></div>
+        
+        </div>
 
     <script src="../frontend/js/index.js"></script>
 </body>
